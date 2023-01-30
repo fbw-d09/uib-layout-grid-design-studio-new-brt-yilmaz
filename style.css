@@ -29,13 +29,13 @@ main {
   
 }
 
-header {
+nav {
   grid-column: 1/-1;
   display: grid;
   grid-template-columns: repeat(8,1fr);
 }
 
-header .company-name, .menu {
+nav .company-name, .menu {
   font-weight: 900;
   font-size: 1.2rem;
   grid-column: 1/3;
